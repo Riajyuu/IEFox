@@ -1,0 +1,184 @@
+#navigator-toolbox:not([tabsontop="true"]) toolbar{
+
+background:rgba(255,255,255,0) !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #nav-bar {
+
+max-height:31px ;
+
+overflow:hidden ;
+
+margin:-1px 0px 0px 0px;
+
+padding:4px 0px 1px 0px !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #toolbar-menubar{
+
+margin: -22px 0px 22px 125px ;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #PersonalToolbar{ 
+
+max-height:22px ;
+
+margin: -54px 115px 31px 125px !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #TabsToolbar{ 
+
+height:27px ; 
+
+margin: -25px 0px 0px 555px  ; 
+
+z-index:-10 ;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #stumbleupon{
+
+margin:-27px 0px 25px 555px !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) tab:not([selected="true"]) {
+
+opacity:0.75;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) tab[selected="true"] { 
+
+opacity:0.9 ;
+
+}
+
+
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) .tabs-newtab-button{ opacity:0.75 ;
+
+}
+
+
+
+#appmenu-button-container {min-width: 1px !important;max-width: 1px !important;visibility: hidden !important}
+
+
+
+#main-window[privatebrowsingmode] #appmenu-button-container {
+
+background-image: -moz-linear-gradient(rgb(153,38,211), rgb(105,19,163) 95%) !important;
+
+border-color: rgba(43,8,65,.9) !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #browser {
+
+box-shadow: 0px -10px 12px -12px #666 !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #back-button{
+
+-moz-transform:scale(1.15);
+
+margin-left:7px !important;
+
+
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #forward-button{
+
+margin-left:-2px !important;
+
+margin-right:0px !important;
+
+margin-bottom:0px !important;
+
+}
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #home-button{
+
+margin-right:0px !important;
+
+margin-bottom:0px !important;
+
+} 
+
+
+
+#navigator-toolbox:not([tabsontop="true"]) #urlbar{ 
+
+max-width:450px ;
+
+margin-bottom:0px !important;
+
+}
+
+
+#star-button {display: none !important;}
+
+/* Hide dropdown history menu arrow in address bar */
+
+.autocomplete-history-dropmarker {display:none !important;}
+
+/* Set maximum width of address bar, in this case 508 pixels (just modify to your needs) */
+
+#urlbar-container {min-width: 1px !important; max-width: 508px !important;}
+
+/*
+
+This area is used for the FXChrome theme to align the controls
+
+properly at the top of the window. This section can be 
+
+completely left out if you don't use the FXChrome theme.
+
+OR, you can play arround with it to customize your new bar.
+
+*/
+
+/* This line alines the tabs properly so the fdon't go over your page
+
+because normally a bar is present under the tabs */
+
+tab {margin-bottom: 2px !important;}
+
+/* You can set your title bar's height here to suite your Windows, in this case, it's 40 pixels high */
+
+#titlebar-content {margin-bottom: 0px !important; height: 40px !important}
+
+/* This line will place the urlbar at a reasonable height in your new bar */
+
+#urlbar {margin-bottom: 2px !important;}
